@@ -5,7 +5,7 @@ import cv2
 from tqdm import tqdm
 
 video_folder = "/home/chenzp/datasets/adas/20210207" # 原始视频目录
-output_path = "/raid_data/项目类别数据/视联网-加油站车牌与油枪识别项目/算法测试数据/synchronized_out" # 原始视频目录路径
+output_path = "" # 原始视频目录路径
 
 max_grab_frame_num_of_each_video = None   # 指定每个视频抽帧的最大帧数, 默认为None（不限制). 设为1000张，则每个视频最多只截取1000张图片
 skip_frame_num_of_each_video = 30  # 抽帧间隔
