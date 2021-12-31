@@ -26,3 +26,38 @@ some script in work
 
 　　以上就是小编给大家带来的电脑窗口跑到屏幕外拉不回来的解决方法，不知道有没有帮助到您。
 
+
+## unrar命令
+### 语法
+```
+unrar [选项][switch 命令] [文件名...][路径]
+unrar <command> [-<switch 1> -<switch N>] archive [files...] [path...]
+```
+
+### 选项
+```
+e             # 解压压缩文件到当前目录
+l[t,b]        # 列出压缩文件[技术信息,简洁]
+p             # 将文件打印到标准输出。
+t             # 测试压缩文件
+v[t,b]        # 详细列出压缩文件[技术信息,简洁]
+x             # 用绝对路径解压文件
+```
+
+### 实例
+将压缩文件 text.rar 在当前目录下解压缩,并解压完整路径。
+```
+unrar x test.rar
+```
+查看rar包中的内容：
+```
+unrar l test.rar
+```
+测试rar包是否能解压成功：
+```
+unrar t test.rar
+```
+解压到当前文件夹：
+```
+unrar e test.rar
+```
