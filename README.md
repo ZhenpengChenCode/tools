@@ -1,6 +1,11 @@
 # tools
 some script in work
 
+
+## TODOLIST
+- [] shell command: grep/awk/sed/find/...
+
+
 在Linux中找到重复文件：
 * Rdfind
 * Fdupes
